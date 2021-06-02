@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+sleep 20
+sudo -H -u nofever0003 sudo /home/nofever0003/NoFever/nofever/boot.sh &
+
+exit 0
+
+

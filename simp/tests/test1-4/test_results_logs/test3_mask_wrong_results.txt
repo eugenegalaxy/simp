@@ -1,0 +1,91 @@
+[11:50:58] ================================================================================================
+[11:50:58] Starting Test: Accuracy of "mask_wrong" detection =============================================
+[11:50:58] 
+[11:50:58] Test: Accuracy of Really A Robot YOLOv5(small) Mask Detector on detecting a class "mask_wrong".
+[11:50:58] Description: In this test, only the images with ground truth "mask_wrong" are giving to the system.
+[11:50:58] YOLOv5 weights: simp/submodules/nofever/nofever/detection/yolov5/weights/RR_aug_e100_best.pt
+[11:50:58] Dataset path: /home/eugenegalaxy/Documents/projects/simp/simp/tests/yolo_dataset/mask_wrong
+[11:50:58] Images found in a given Dataset: 66
+[11:50:58] Images with bounding boxes will be saved to: /home/eugenegalaxy/Documents/projects/simp/simp/tests/yolo_dataset/test_results_mask_wrong
+[11:50:58] 
+[11:50:58] Starting mask detection process =======================================================================
+[11:50:59] Image 0 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0695.jpg
+[11:50:59] Image 1 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0703.jpg
+[11:50:59] Image 2 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0719.jpg
+[11:50:59] Image 3 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0698.jpg
+[11:50:59] Image 4 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0714.jpg
+[11:50:59] Image 5 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0701.jpg
+[11:50:59] Image 6 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0708.jpg
+[11:50:59] Image 7 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0677.jpg
+[11:50:59] Image 8 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0699.jpg
+[11:50:59] Image 9 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0730.jpg
+[11:51:00] Image 10 -> Guess: mask_wrong , Confidence: 0.89 , File Name: nofever_0706.jpg
+[11:51:00] Image 11 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0738.jpg
+[11:51:00] Image 12 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0684.jpg
+[11:51:00] Image 13 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0688.jpg
+[11:51:00] Image 14 -> Guess: mask_wrong , Confidence: 0.86 , File Name: nofever_0721.jpg
+[11:51:00] Image 15 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0716.jpg
+[11:51:00] Image 16 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0692.jpg
+[11:51:00] Image 17 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0723.jpg
+[11:51:00] Image 18 -> Guess: mask_wrong , Confidence: 0.91 , File Name: nofever_0681.jpg
+[11:51:00] Image 19 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0678.jpg
+[11:51:00] Image 20 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0729.jpg
+[11:51:01] Image 21 -> Guess: mask_wrong , Confidence: 0.96 , File Name: nofever_0704.jpg
+[11:51:01] Image 22 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0735.jpg
+[11:51:01] Image 23 -> Guess: mask_wrong , Confidence: 0.91 , File Name: nofever_0709.jpg
+[11:51:01] Image 24 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0728.jpg
+[11:51:01] Image 25 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0693.jpg
+[11:51:01] Image 26 -> Guess: mask_wrong , Confidence: 0.90 , File Name: nofever_0734.jpg
+[11:51:01] Image 27 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0717.jpg
+[11:51:01] Image 28 -> Guess: mask_on , Confidence: 0.93 , File Name: nofever_0680.jpg
+[11:51:01] Image 29 -> Guess: mask_wrong , Confidence: 0.91 , File Name: nofever_0683.jpg
+[11:51:01] Image 30 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0715.jpg
+[11:51:02] Image 31 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0742.jpg
+[11:51:02] Image 32 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0696.jpg
+[11:51:02] Image 33 -> Guess: mask_wrong , Confidence: 0.87 , File Name: nofever_0724.jpg
+[11:51:02] Image 34 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0732.jpg
+[11:51:02] Image 35 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0713.jpg
+[11:51:02] Image 36 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0702.jpg
+[11:51:02] Image 37 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0720.jpg
+[11:51:02] Image 38 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0710.jpg
+[11:51:02] Image 39 -> Guess: mask_on , Confidence: 0.38 , File Name: nofever_0711.jpg
+[11:51:02] Image 40 -> Guess: mask_wrong , Confidence: 0.96 , File Name: nofever_0700.jpg
+[11:51:02] Image 41 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0722.jpg
+[11:51:03] Image 42 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0739.jpg
+[11:51:03] Image 43 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0689.jpg
+[11:51:03] Image 44 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0682.jpg
+[11:51:03] Image 45 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0679.jpg
+[11:51:03] Image 46 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0727.jpg
+[11:51:03] Image 47 -> Guess: mask_wrong , Confidence: 0.96 , File Name: nofever_0737.jpg
+[11:51:03] Image 48 -> Guess: mask_wrong , Confidence: 0.88 , File Name: nofever_0736.jpg
+[11:51:03] Image 49 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0687.jpg
+[11:51:03] Image 50 -> Guess: mask_wrong , Confidence: 0.77 , File Name: nofever_0731.jpg
+[11:51:03] Image 51 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0691.jpg
+[11:51:04] Image 52 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0725.jpg
+[11:51:04] Image 53 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0697.jpg
+[11:51:04] Image 54 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0718.jpg
+[11:51:04] Image 55 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0712.jpg
+[11:51:04] Image 56 -> Guess: mask_wrong , Confidence: 0.90 , File Name: nofever_0741.jpg
+[11:51:04] Image 57 -> Guess: mask_on , Confidence: 0.90 , File Name: nofever_0726.jpg
+[11:51:04] Image 58 -> Guess: mask_wrong , Confidence: 0.96 , File Name: nofever_0740.jpg
+[11:51:04] Image 59 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0690.jpg
+[11:51:04] Image 60 -> Guess: mask_wrong , Confidence: 0.93 , File Name: nofever_0694.jpg
+[11:51:04] Image 61 -> Guess: mask_wrong , Confidence: 0.96 , File Name: nofever_0733.jpg
+[11:51:05] Image 62 -> Guess: mask_wrong , Confidence: 0.92 , File Name: nofever_0686.jpg
+[11:51:05] Image 63 -> Guess: mask_wrong , Confidence: 0.95 , File Name: nofever_0707.jpg
+[11:51:05] Image 64 -> Guess: mask_on , Confidence: 0.91 , File Name: nofever_0685.jpg
+[11:51:05] Image 65 -> Guess: mask_wrong , Confidence: 0.94 , File Name: nofever_0705.jpg
+[11:51:05] Ending mask detection process =============================================================================
+[11:51:05] Elapsed time: 6.38 seconds
+[11:51:05] 66 images successfuly scanned out of 66 files in the provided directory.
+[11:51:05] 
+[11:51:05] Results:
+[11:51:05] 
+[11:51:05] [62/66] (93.93939393939394%) Label mask_wrong was guessed 62 times correctly out 66 total images with mask_wrong ground-truth.
+[11:51:05] Average total confidence: 0.92
+[11:51:05] Label "mask_on" was found 4 times with average confidence of 0.78
+[11:51:05] Label "mask_off" was found 0 times.
+[11:51:05] Label "mask_wrong" was found 62 times with average confidence of 0.93
+[11:51:05] Label "no_detections" was found 0 times.
+[11:51:05] ================================================================================================
+[11:51:05] End of a test.

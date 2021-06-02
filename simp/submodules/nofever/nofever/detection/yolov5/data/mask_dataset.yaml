@@ -1,0 +1,7 @@
+train: ../../../mask_dataset_together/images/train
+val: ../../../mask_dataset_together/images/val
+test: ../../../mask_dataset_together/images/test
+
+nc: 3
+names: ['mask_on', 'no_mask', 'mask_wrong']
+

@@ -1,0 +1,95 @@
+[13:19:17] ================================================================================================
+[13:19:17] Starting Test: Old incorrect detections =============================================
+[13:19:17] 
+[13:19:17] Test: Accuracy of a NEW YOLOv5 RR model comparing to accuracy of the old model.
+[13:19:17] Description: Detection results of the old model are saved as a name of a file of that image.
+[13:19:17] IMPORTANT: Results will be computed manually by observing the image, old guess, and  the new guess.
+[13:19:17] YOLOv5 weights: simp/submodules/nofever/nofever/detection/yolov5/weights/RR_aug_e100_best.pt
+[13:19:17] Dataset path: /home/eugenegalaxy/Documents/projects/simp/simp/tests/yolo_dataset/mask_incorrect_detections
+[13:19:17] Images found in a given Dataset: 57
+[13:19:17] Images with bounding boxes will be saved to: /home/eugenegalaxy/Documents/projects/simp/simp/tests/yolo_dataset/test_results_old_incorrect_detections
+[13:19:17] 
+[13:19:17] Starting mask detection process =======================================================================
+[13:19:17] Image 0 -> Guess: mask_off , Confidence: 0.93 , File Name: 0047_old_mask_on.jpg
+[13:19:17] Image 1 -> Guess: mask_off , Confidence: 0.94 , File Name: 0050_old_mask_on.jpg
+[13:19:17] Image 2 -> Guess: mask_off , Confidence: 0.92 , File Name: 0032_old_mask_on.jpg
+[13:19:17] Image 3 -> Guess: mask_off , Confidence: 0.87 , File Name: 0005_old_mask_on.jpg
+[13:19:17] Image 4 -> Guess: mask_wrong , Confidence: 0.92 , File Name: 0037_old_mask_off.jpg
+[13:19:17] Image 5 -> No detections , File Name: 0000_old_no_detections.jpg
+[13:19:18] Image 6 -> Guess: mask_off , Confidence: 0.93 , File Name: 0007_old_mask_on.jpg
+[13:19:18] Image 7 -> Guess: mask_off , Confidence: 0.93 , File Name: 0052_old_mask_wrong.jpg
+[13:19:18] Image 8 -> Guess: mask_wrong , Confidence: 0.93 , File Name: 0013_old_mask_on.jpg
+[13:19:18] Image 9 -> Guess: mask_off , Confidence: 0.94 , File Name: 0009_old_mask_wrong.jpg
+[13:19:18] Image 10 -> Guess: mask_off , Confidence: 0.93 , File Name: 0031_old_mask_on.jpg
+[13:19:18] Image 11 -> Guess: mask_off , Confidence: 0.88 , File Name: 0028_old_mask_on.jpg
+[13:19:18] Image 12 -> Guess: mask_off , Confidence: 0.91 , File Name: 0008_old_mask_wrong.jpg
+[13:19:18] Image 13 -> Guess: mask_off , Confidence: 0.92 , File Name: 0029_old_mask_wrong.jpg
+[13:19:18] Image 14 -> Guess: mask_wrong , Confidence: 0.95 , File Name: 0026_old_mask_on.jpg
+[13:19:18] Image 15 -> Guess: mask_off , Confidence: 0.94 , File Name: 0046_old_mask_on.jpg
+[13:19:19] Image 16 -> Guess: mask_off , Confidence: 0.92 , File Name: 0055_old_mask_on.jpg
+[13:19:19] Image 17 -> Guess: mask_off , Confidence: 0.93 , File Name: 0030_old_mask_off.jpg
+[13:19:19] Image 18 -> Guess: mask_off , Confidence: 0.91 , File Name: 0042_old_mask_off.jpg
+[13:19:19] Image 19 -> Guess: mask_off , Confidence: 0.93 , File Name: 0001_old_mask_off.jpg
+[13:19:19] Image 20 -> Guess: mask_off , Confidence: 0.94 , File Name: 0056_old_mask_wrong.jpg
+[13:19:19] Image 21 -> Guess: mask_off , Confidence: 0.92 , File Name: 0014_old_mask_on.jpg
+[13:19:19] Image 22 -> Guess: mask_off , Confidence: 0.87 , File Name: 0048_old_mask_wrong.jpg
+[13:19:19] Image 23 -> Guess: mask_off , Confidence: 0.91 , File Name: 0011_old_mask_on.jpg
+[13:19:19] Image 24 -> Guess: mask_off , Confidence: 0.94 , File Name: 0039_old_mask_wrong.jpg
+[13:19:19] Image 25 -> Guess: mask_off , Confidence: 0.93 , File Name: 0035_old_mask_wrong.jpg
+[13:19:19] Image 26 -> Guess: mask_off , Confidence: 0.34 , File Name: 0038_old_mask_on.jpg
+[13:19:20] Image 27 -> Guess: mask_off , Confidence: 0.91 , File Name: 0024_old_mask_on.jpg
+[13:19:20] Image 28 -> Guess: mask_on , Confidence: 0.79 , File Name: 0019_old_no_detections.jpg
+[13:19:20] Image 29 -> Guess: mask_off , Confidence: 0.80 , File Name: 0053_old_mask_on.jpg
+[13:19:20] Image 30 -> Guess: mask_off , Confidence: 0.93 , File Name: 0036_old_mask_on.jpg
+[13:19:20] Image 31 -> Guess: mask_off , Confidence: 0.93 , File Name: 0010_old_mask_on.jpg
+[13:19:20] Image 32 -> Guess: mask_off , Confidence: 0.94 , File Name: 0027_old_mask_wrong.jpg
+[13:19:20] Image 33 -> Guess: mask_on , Confidence: 0.96 , File Name: 0002_old_mask_wrong.jpg
+[13:19:20] Image 34 -> Guess: mask_off , Confidence: 0.92 , File Name: 0034_old_mask_wrong.jpg
+[13:19:20] Image 35 -> Guess: mask_off , Confidence: 0.94 , File Name: 0012_old_mask_wrong.jpg
+[13:19:20] Image 36 -> Guess: mask_off , Confidence: 0.92 , File Name: 0041_old_mask_wrong.jpg
+[13:19:20] Image 37 -> Guess: mask_off , Confidence: 0.91 , File Name: 0033_old_mask_on.jpg
+[13:19:21] Image 38 -> Guess: mask_off , Confidence: 0.91 , File Name: 0006_old_mask_wrong.jpg
+[13:19:21] Image 39 -> Guess: mask_on , Confidence: 0.92 , File Name: 0003_old_no_detections.jpg
+[13:19:21] Image 40 -> Guess: mask_off , Confidence: 0.84 , File Name: 0043_old_mask_wrong.jpg
+[13:19:21] Image 41 -> Guess: mask_off , Confidence: 0.92 , File Name: 0040_old_mask_on.jpg
+[13:19:21] Image 42 -> Guess: mask_off , Confidence: 0.94 , File Name: 0025_old_mask_wrong.jpg
+[13:19:21] Image 43 -> Guess: mask_off , Confidence: 0.95 , File Name: 0022_old_mask_on.jpg
+[13:19:21] Image 44 -> Guess: mask_off , Confidence: 0.92 , File Name: 0020_old_mask_wrong.jpg
+[13:19:21] Image 45 -> Guess: mask_off , Confidence: 0.84 , File Name: 0045_old_mask_wrong.jpg
+[13:19:21] Image 46 -> Guess: mask_off , Confidence: 0.91 , File Name: 0004_old_mask_wrong.jpg
+[13:19:21] Image 47 -> Guess: mask_on , Confidence: 0.40 , File Name: 0017_old_no_detections.jpg
+[13:19:22] Image 48 -> Guess: mask_wrong , Confidence: 0.94 , File Name: 0023_old_mask_off.jpg
+[13:19:22] Image 49 -> Guess: mask_off , Confidence: 0.88 , File Name: 0021_old_mask_on.jpg
+[13:19:22] Image 50 -> Guess: mask_wrong , Confidence: 0.93 , File Name: 0015_old_mask_on.jpg
+[13:19:22] Image 51 -> Guess: mask_off , Confidence: 0.93 , File Name: 0054_old_mask_on.jpg
+[13:19:22] Image 52 -> Guess: mask_off , Confidence: 0.93 , File Name: 0049_old_mask_wrong.jpg
+[13:19:22] Image 53 -> Guess: mask_off , Confidence: 0.92 , File Name: 0044_old_mask_wrong.jpg
+[13:19:22] Image 54 -> Guess: mask_off , Confidence: 0.90 , File Name: 0016_old_mask_on.jpg
+[13:19:22] Image 55 -> Guess: mask_on , Confidence: 0.92 , File Name: 0018_old_mask_off.jpg
+[13:19:22] Image 56 -> Guess: mask_off , Confidence: 0.93 , File Name: 0051_old_mask_wrong.jpg
+[13:19:22] Ending mask detection process =============================================================================
+[13:19:22] Elapsed time: 5.45 seconds
+[13:19:22] 57 images successfuly scanned out of 57 files in the provided directory.
+[13:19:22] 
+[13:19:22] Results: Counted manually by inspecting image vs old guess vs new guess.
+[13:19:22] 
+
+RESULTS: 55/57 (96.4%) correct guesses now. 2 incorrect guesses remained as from old. No new mistakes brought.
+Reasoning for the 2 mistakes: low illumination and blury photo.
+
+What was fixed:
+ - beards are not triggering mask_wrong
+ - low illumination is not triggering random wrong results
+ - 'mask_wrong' is more consistently detected
+ - Face being too close to the camera is not triggering wrong results
+ - Head tilt is not triggering mask_on anymore when its mask_off
+
+
+
+[13:19:22] Average total confidence: 0.88
+[13:19:22] Label "mask_on" was found 5 times with average confidence of 0.80
+[13:19:22] Label "mask_off" was found 46 times with average confidence of 0.90
+[13:19:22] Label "mask_wrong" was found 5 times with average confidence of 0.93
+[13:19:22] Label "no_detections" was found 1 times.
+[13:19:22] ================================================================================================
+[13:19:22] End of a test.

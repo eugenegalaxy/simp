@@ -1,0 +1,1 @@
+{"temp" : 36.52, "mask_status" : "mask_off"}

@@ -1,0 +1,1 @@
+{"temp" : 31.38, "mask_status" : "mask_wrong"}

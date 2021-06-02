@@ -1,0 +1,21 @@
+# pip install -r requirements.txt
+
+
+# ------------------- Packages to make YOLOv5 work.
+Cython
+pybind11
+matplotlib>=3.2.2
+numpy==1.19.1
+opencv-python>=4.1.2
+pillow
+PyYAML==3.12
+scipy==1.4.1
+#tensorboard==2.2
+tqdm>=4.41.0
+
+# ------------------ Others
+pyserial=3.4
+libusb1
+smbus
+brother_ql
+

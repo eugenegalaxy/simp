@@ -1,0 +1,166 @@
+[18:16:47] ================================================================================================
+[18:16:47] Starting Test: Accuracy of "demographics" =============================================
+[18:16:47] 
+[18:16:47] Test: Accuracy of Really A Robot DeepFace demographics (age and gender) realsense images.
+[18:16:47] Description: In this test, scan images of mask-off/mask-on/mask-off-GAN images taken from #NoFever.
+[18:16:47] Demographics models used: <tensorflow.python.keras.engine.functional.Functional object at 0x7f288856ab70> and <tensorflow.python.keras.engine.functional.Functional object at 0x7f28884f7358>
+[18:16:47] Age model weights: /home/eugenegalaxy/.deepface/weights/age_model_weights.h5
+[18:16:47] Gender model weights: /home/eugenegalaxy/.deepface/weights/gender_model_weights.h5
+[18:16:47] Face detector backend: mtcnn
+[18:16:47] Allowed age error tolerance: 5
+[18:16:47] Dataset path: /home/eugenegalaxy/Documents/projects/simp/simp/tests/deepface_dataset/identities
+[18:16:47] Results written to /home/eugenegalaxy/Documents/projects/simp/simp/tests/test_results_demographics/test8_demographics_results.txt
+[18:16:47] Identities found in a given Dataset: 23
+[18:16:47] Images will be saved to: /home/eugenegalaxy/Documents/projects/simp/simp/tests/test_results_demographics/identities
+[18:16:47] 
+[18:16:47] Starting identity verification process ================================================================
+[18:16:47] Analysing morten demographics.
+[18:16:55] Ground Truth -> Age: 46  Gender: Man
+[18:16:55] Img: morten/mask_off -> Predicted Age: 30 (Verified: False)  Predicted gender Man (Verified: True)
+[18:16:55] Img: morten/mask_on_gan -> Predicted Age: 26 (Verified: False)  Predicted gender Man (Verified: True)
+[18:16:55] Img: morten/mask_on -> Predicted Age: 25 (Verified: False)  Predicted gender Man (Verified: True)
+[18:16:55] Analysing kirsten demographics.
+[18:17:02] Ground Truth -> Age: 38  Gender: Woman
+[18:17:02] Img: kirsten/mask_off -> Predicted Age: 29 (Verified: False)  Predicted gender Man (Verified: False)
+[18:17:02] Img: kirsten/mask_on_gan -> Predicted Age: 29 (Verified: False)  Predicted gender Man (Verified: False)
+[18:17:02] Img: kirsten/mask_on -> Predicted Age: 25 (Verified: False)  Predicted gender Man (Verified: False)
+[18:17:02] Analysing mads demographics.
+[18:17:08] Ground Truth -> Age: 31  Gender: Man
+[18:17:08] Img: mads/mask_off -> Predicted Age: 26 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:08] Img: mads/mask_on_gan -> Predicted Age: 25 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:08] Img: mads/mask_on -> Predicted Age: 24 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:09] Analysing soren demographics.
+[18:17:15] Ground Truth -> Age: 50  Gender: Man
+[18:17:15] Img: soren/mask_off -> Predicted Age: 38 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:15] Img: soren/mask_on_gan -> Predicted Age: 38 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:15] Img: soren/mask_on -> Predicted Age: 24 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:15] Analysing anne_mette demographics.
+[18:17:21] Ground Truth -> Age: 42  Gender: Woman
+[18:17:21] Img: anne_mette/mask_off -> Predicted Age: 34 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:17:21] Img: anne_mette/mask_on_gan -> Predicted Age: 35 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:17:21] Img: anne_mette/mask_on -> Predicted Age: 31 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:17:22] Analysing eugene demographics.
+[18:17:28] Ground Truth -> Age: 26  Gender: Man
+[18:17:28] Img: eugene/mask_off -> Predicted Age: 26 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:28] Img: eugene/mask_on_gan -> Predicted Age: 23 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:28] Img: eugene/mask_on -> Predicted Age: 24 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:28] Analysing johnny demographics.
+[18:17:34] Ground Truth -> Age: 37  Gender: Man
+[18:17:34] Img: johnny/mask_off -> Predicted Age: 23 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:34] Img: johnny/mask_on_gan -> Predicted Age: 22 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:34] Img: johnny/mask_on -> Predicted Age: 21 (Verified: False)  Predicted gender Man (Verified: True)
+[18:17:35] Analysing mette demographics.
+[18:17:41] Ground Truth -> Age: 43  Gender: Woman
+[18:17:41] Img: mette/mask_off -> Predicted Age: 31 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:17:41] Img: mette/mask_on_gan -> Predicted Age: 27 (Verified: False)  Predicted gender Man (Verified: False)
+[18:17:41] Img: mette/mask_on -> Predicted Age: 26 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:17:41] Analysing hugo demographics.
+[18:17:47] Ground Truth -> Age: 27  Gender: Man
+[18:17:47] Img: hugo/mask_off -> Predicted Age: 25 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:47] Img: hugo/mask_on_gan -> Predicted Age: 23 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:47] Img: hugo/mask_on -> Predicted Age: 23 (Verified: True)  Predicted gender Man (Verified: True)
+[18:17:48] Analysing maria_2 demographics.
+[18:17:54] Ground Truth -> Age: 27  Gender: Woman
+[18:17:54] Img: maria_2/mask_off -> Predicted Age: 31 (Verified: True)  Predicted gender Woman (Verified: True)
+[18:17:54] Img: maria_2/mask_on_gan -> Predicted Age: 32 (Verified: True)  Predicted gender Woman (Verified: True)
+[18:17:54] Img: maria_2/mask_on -> Predicted Age: 32 (Verified: True)  Predicted gender Man (Verified: False)
+[18:17:54] Analysing bo demographics.
+[18:18:01] Ground Truth -> Age: 46  Gender: Man
+[18:18:01] Img: bo/mask_off -> Predicted Age: 24 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:01] Img: bo/mask_on_gan -> Predicted Age: 23 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:01] Img: bo/mask_on -> Predicted Age: 24 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:01] Analysing marie demographics.
+[18:18:07] Ground Truth -> Age: 25  Gender: Woman
+[18:18:07] Img: marie/mask_off -> Predicted Age: 31 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:18:07] Img: marie/mask_on_gan -> Predicted Age: 31 (Verified: False)  Predicted gender Woman (Verified: True)
+[18:18:07] Img: marie/mask_on -> Predicted Age: 26 (Verified: True)  Predicted gender Man (Verified: False)
+[18:18:07] Analysing peter_inno demographics.
+[18:18:14] Ground Truth -> Age: 51  Gender: Man
+[18:18:14] Img: peter_inno/mask_off -> Predicted Age: 34 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:14] Img: peter_inno/mask_on_gan -> Predicted Age: 39 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:14] Img: peter_inno/mask_on -> Predicted Age: 30 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:14] Analysing jorgen demographics.
+[18:18:20] Ground Truth -> Age: 53  Gender: Man
+[18:18:20] Img: jorgen/mask_off -> Predicted Age: 31 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:20] Img: jorgen/mask_on_gan -> Predicted Age: 29 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:20] Img: jorgen/mask_on -> Predicted Age: 24 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:20] Analysing kristian demographics.
+[18:18:26] Ground Truth -> Age: 32  Gender: Man
+[18:18:26] Img: kristian/mask_off -> Predicted Age: 27 (Verified: True)  Predicted gender Woman (Verified: False)
+[18:18:26] Img: kristian/mask_on_gan -> Predicted Age: 30 (Verified: True)  Predicted gender Man (Verified: True)
+[18:18:26] Img: kristian/mask_on -> Predicted Age: 26 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:26] Analysing andreas demographics.
+[18:18:32] Ground Truth -> Age: 25  Gender: Man
+[18:18:32] Img: andreas/mask_off -> Predicted Age: 30 (Verified: True)  Predicted gender Man (Verified: True)
+[18:18:32] Img: andreas/mask_on_gan -> Predicted Age: 30 (Verified: True)  Predicted gender Man (Verified: True)
+[18:18:32] Img: andreas/mask_on -> Predicted Age: 32 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:33] Analysing rene demographics.
+[18:18:39] Ground Truth -> Age: 54  Gender: Man
+[18:18:39] Img: rene/mask_off -> Predicted Age: 41 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:39] Img: rene/mask_on_gan -> Predicted Age: 37 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:39] Img: rene/mask_on -> Predicted Age: 35 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:39] Analysing kasper demographics.
+[18:18:46] Ground Truth -> Age: 29  Gender: Man
+[18:18:46] Img: kasper/mask_off -> Predicted Age: 26 (Verified: True)  Predicted gender Man (Verified: True)
+[18:18:46] Img: kasper/mask_on_gan -> Predicted Age: 26 (Verified: True)  Predicted gender Man (Verified: True)
+[18:18:46] Img: kasper/mask_on -> Predicted Age: 24 (Verified: True)  Predicted gender Man (Verified: True)
+[18:18:46] Analysing henrik_service demographics.
+[18:18:52] Ground Truth -> Age: 37  Gender: Man
+[18:18:52] Img: henrik_service/mask_off -> Predicted Age: 28 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:52] Img: henrik_service/mask_on_gan -> Predicted Age: 29 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:52] Img: henrik_service/mask_on -> Predicted Age: 26 (Verified: False)  Predicted gender Man (Verified: True)
+[18:18:53] Analysing amalie demographics.
+[18:18:59] Ground Truth -> Age: 24  Gender: Woman
+[18:18:59] Img: amalie/mask_off -> Predicted Age: 31 (Verified: False)  Predicted gender Man (Verified: False)
+[18:18:59] Img: amalie/mask_on_gan -> Predicted Age: 35 (Verified: False)  Predicted gender Man (Verified: False)
+[18:18:59] Img: amalie/mask_on -> Predicted Age: 32 (Verified: False)  Predicted gender Man (Verified: False)
+[18:18:59] Analysing bent demographics.
+[18:19:06] Ground Truth -> Age: 62  Gender: Man
+[18:19:06] Img: bent/mask_off -> Predicted Age: 32 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:06] Img: bent/mask_on_gan -> Predicted Age: 31 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:06] Img: bent/mask_on -> Predicted Age: 36 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:06] Analysing jorn demographics.
+[18:19:12] Ground Truth -> Age: 61  Gender: Man
+[18:19:12] Img: jorn/mask_off -> Predicted Age: 45 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:12] Img: jorn/mask_on_gan -> Predicted Age: 39 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:12] Img: jorn/mask_on -> Predicted Age: 27 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:13] Analysing simon demographics.
+[18:19:19] Ground Truth -> Age: 28  Gender: Man
+[18:19:19] Img: simon/mask_off -> Predicted Age: 23 (Verified: True)  Predicted gender Man (Verified: True)
+[18:19:19] Img: simon/mask_on_gan -> Predicted Age: 22 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:19] Img: simon/mask_on -> Predicted Age: 22 (Verified: False)  Predicted gender Man (Verified: True)
+[18:19:19] Saved results dictionary in /home/eugenegalaxy/Documents/projects/simp/simp/tests/test_results_demographics/results_demographics_age-tolerance-5_dataset-identities_num-of-ids-23.txt
+[18:19:19] Ending demographics analysis process ================================================================
+[18:19:19] Elapsed time: 152.25 seconds
+[18:19:19] 
+[18:19:19] Results:
+[18:19:19] 
+[18:19:19] Computing results of mask-on race and gender demographics analysis.
+[18:19:19] Accuracy Gender (Total): 82.61%
+[18:19:19] Accuracy Gender (Man): 100.00%
+[18:19:19] Accuracy Gender (Woman): 33.33%
+[18:19:19] Accuracy Age (Total): 21.74%
+[18:19:19] Accuracy Age (Man): 17.65%
+[18:19:19] Accuracy Age (Woman): 33.33%
+[18:19:19] Age Absolute Mean Error: 13.78 years
+[18:19:19] 
+[18:19:19] Computing results of mask-off race and gender demographics analysis.
+[18:19:19] Accuracy Gender (Total): 86.96%
+[18:19:19] Accuracy Gender (Man): 94.12%
+[18:19:19] Accuracy Gender (Woman): 66.67%
+[18:19:19] Accuracy Age (Total): 34.78%
+[18:19:19] Accuracy Age (Man): 41.18%
+[18:19:19] Accuracy Age (Woman): 16.67%
+[18:19:19] Age Absolute Mean Error: 10.52 years
+[18:19:19] 
+[18:19:19] Computing results of mask-GAN race and gender demographics analysis.
+[18:19:19] Accuracy Gender (Total): 86.96%
+[18:19:19] Accuracy Gender (Man): 100.00%
+[18:19:19] Accuracy Gender (Woman): 50.00%
+[18:19:19] Accuracy Age (Total): 26.09%
+[18:19:19] Accuracy Age (Man): 29.41%
+[18:19:19] Accuracy Age (Woman): 16.67%
+[18:19:19] Age Absolute Mean Error: 11.61 years
+[18:19:19] ================================================================================================
+[18:19:19] End of a test.
+[18:19:19] 

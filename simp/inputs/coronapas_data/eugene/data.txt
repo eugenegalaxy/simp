@@ -1,0 +1,1 @@
+{"name" : "Jevgenijs Galaktionovs", "age" : 27, "gender": "Man", "coronapas": "valid"}

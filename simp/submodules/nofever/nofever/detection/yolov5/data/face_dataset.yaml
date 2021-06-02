@@ -1,0 +1,6 @@
+train: ../../../oi_dataset/images/train
+val: ../../../oi_dataset/images/valid
+test: ../../../oi_dataset/images/test
+
+nc: 8
+names: ['human eye', 'human ear', 'human head', 'human nose', 'human mouth', 'mask weared wrong', 'with mask', 'without mask']
